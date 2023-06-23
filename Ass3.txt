@@ -1,0 +1,15 @@
+Q1: functions make our coding easy. we do not have to repeat the same code for our repeating actions. we can make a function and then use it whenever we need. It gives us the power of write once use forever.Functions help in achieving DRY concept that is do not repeat.
+
+Q2: The code of the function runs when it is called
+
+Q3: def keyword
+Q4: function is the definition which has many parts like def keyword, name of the function and the function body while as calling of function is to execute the code of the function 
+Q5: 4
+Q6: They are deleted from the memory
+Q7: if we want the function should return any value which can be accessed outside the function, for that purpose return statement is used. yes
+Q8: none
+Q9: By using the keyword global
+Q10: NoneType
+Q11: It imports the package areallyourpetsnamederic
+Q12: span.bacon
+Q13:The code which we expect to throw an error is written in try clause and if the code throws an error that error is handled in except clause
