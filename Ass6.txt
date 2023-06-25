@@ -1,0 +1,25 @@
+Q1: Keywords are the reserved words in python which cannot be used as names for anything in python
+import Keyword
+print(keyword.kwlist)
+
+Q2:Variable name should start with alphabet, it should not start with number, we can have any combination of alphabets, numbers and underscore and variable name should not be a keyword
+
+Q4: Syntax error will occur
+Q5: def is used for functions in python
+Q6: if we want want to break our long string we can put it where we want to write the string in next line
+Q7: Homogenous list = [1, 2, 3, 4, 5, 6,]
+      Heterogenous set = {1, "basit", True, 3.14}
+      Homogenous tuple = ("Basit", "Arif", "laptp")
+Q8: MUTABLE data types are those in which items can be changed using assignment and other functions eg list, dictionaries  while as immutable cannot be modified once created eg; tuples and strings
+Q9: rows = 5
+spaces = rows - 1
+for i in range(0, rows):
+    for j in range(0, spaces):
+        print(end = " ")
+    spaces  = spaces - 1
+    for k in range(0, i+1):
+        print("*", end =" ")
+    print()
+Q10:
+
+
