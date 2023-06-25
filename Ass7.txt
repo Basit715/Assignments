@@ -1,0 +1,25 @@
+Q1: num1 = 10
+        num2 = 3
+print(f"first variable is {num1} & second variable is {num2} ")
+print(f"Addition:{num1} + {num2} = ", num1 + num2)
+print(f"Subtraction:{num1} - {num2} = ", num1 - num2)
+print(f"Multiplication:{num1} * {num2} = ", num1 * num2)
+print(f"Division:{num1} / {num2} = ", num1 / num2)
+Q2: In python / is division operator and includes decimal point also while as // is floor operator gives floor value of decimal,  ** is exponential opertor while as ^ is xor operator
+Q3:and, or, not, xor
+Q4: left shift takes the two operand, the bits of first operand are left shift and the second operand decides the number of shits to be done eg 
+5<<2
+5 = 101 in binary
+first left shift: 1010
+second left shift: 10100 = 20
+Similarly the right shift has again two operands, the bits of first operand are right shifted and the second operand decides the number of shifts to be done eg;
+5>>2
+5 = 101
+first right shift: 010
+2nd  right shift: 01 = 1
+Q5: lst = [2, 4, 6, 3, 12, 67, 34, 54, 66, 77, 87, 10, 13, 14, 15]
+
+if 10 in lst:
+    print("10 is present")
+else:
+    print("10 is not present")
