@@ -1,0 +1,21 @@
+Q1: Empty list
+Q2: spam[3] = "hello"
+Q3: a
+Q4:d
+Q5: ['a', 'b']
+Q6: 1
+Q7: [3.14, 'cat', 11, 'cat', True, 99]
+Q8:[3.14, 11, 'cat', True, 99]
+Q9: list concatenation is concatenating a new item to the list eg; 
+	bacon = bacon + ['bat'] returns a new list bacon that includes the previous values of bacon and a new item bat at the end
+  while as list replication is multiplying a list by itself as per our will and new list will be replicated as many times
+Q10: append() takes only one arguemnt which is the item that is to be inserted in the list and it adds the item to the end of list while as insert() function takes two arguments first as the index where to add the item and second arguemnt as which item is to be added to the list
+Q11: one method is pop() : if we do not give the index as arguement it will remove the last item in the list but if arguemnt given as index it will remove that item 
+    2nd method is remove(): It takes the element that is to be removed as arguemnt and removes that item from the list
+Q12:list and string values are similar in way that both are sequences and index in both start with 0
+Q13: first difference is list is identified with [] while as tuples are identified as () and lists are mutable and tuples are immutable
+Q14:tup = (42,)
+Q15: lst = [1, 2, 3]:    can be converted to tuple as tuple(list) and 
+    tuple = (1, 2, 3): can be converted to list as list(tuple)
+Q16: reference to list
+Q17: 
