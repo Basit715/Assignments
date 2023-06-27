@@ -1,0 +1,58 @@
+Q1 The two types of boolean in python are True and False.
+Q2: and, Or,  not
+Q3: and truth table
+		False 	False     =    False
+		True 	False   =	     False
+		False     True    =      False
+		True     True    =      True
+       or truth table 
+		False    False    =   False
+		True    False   =    True
+		False   True     = True
+		True   	True   =   True
+   not truth table
+		True  =   False
+     		False = True
+Q4:   (a)  False
+          (b)False
+          (c)True
+          (d)False
+          (e)True
+Q5: (i) Arithmetic operator
+       (ii)comparison operator
+       (iii)logical operator
+       (iV)Bitwise operator
+      (v)identity operator
+      (vi)membership operator
+Q6: equal to sign is denoted as == while as assignment operator is denoted as =
+when we assign a variable any value we do it by assignment operator eg; a = 10, b = 10
+if we have to compare if the two variables are equal we use equal to sign as 
+if a == b:
+	print("variables are equal")
+else:
+	print("variables are not equal")
+Q7: There is indentation error in this code.
+Q8: spam = int(input("Enter 1 for hello 2 for howdy else enter any number for greetings: "))
+
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("welcome to python")
+Q9: ctrl+c
+Q10: break statement is used  to exit from the loop and used in switch statements eg
+ 	for i in range(10):
+    if(i == 4):
+        break
+    print(i)
+           continue statement is used to skip on iteration which is given and continue with next iterations eg;
+       for i in range(10):
+    if i == 5:
+        continue;
+    print(i)
+Q11:range(0,10 ) Here, start=0 and stop = 10. stop : (Upper limit) generate numbers up to this number, i.e., An integer number specifying at which position to stop (upper limit). The range() never includes the stop number in its result. step : Specify the increment value.
+Q12: for i in range(1, 11):
+    print(i)
+Q13:  spam.bacon
+
