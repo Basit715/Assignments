@@ -1,0 +1,22 @@
+Q1: * -> expression
+       'hello' -> value
+        -87.5 -> value
+        - -> expression
+      / -> expression
+    + -> expression
+   6 -> value
+
+Q2: String is a data type while as a variable is a named location where the data is stored
+Q3: (1) integers: Numbers with no fractional point are said to be integers that is numbers which do not contain decimal points. It can be positive or negative.
+      (2) Floats: Numbers with decimal point are said to be floats eg 23.7, 45.6
+      (3) strings: Strings are sequence of characters which are enclosed in quotes. Strings are iterable but immutable.
+	name = "basit"
+Q4: An expression is a construct made up of variables, operators and method invocations, which are constructed according to the syntax of the language, that evaluates to single value.
+Q5: 
+Q6: bacon will remain 22 only
+Q7: (a) spamspamspam
+        (b) spamspamspam
+Q8: "eggs" start with a letter while as 100 does not start with letter but a digit
+Q9:
+Q10: String cannot be added to a number 99. To fix this, we need to make 99 also string as:
+"i have eaten" + "99" + "burritos"
