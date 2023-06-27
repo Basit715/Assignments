@@ -1,0 +1,8 @@
+Q1: dict = {}
+Q2:{'foo':42}
+Q3:list does not have key:value pair while as dictionary has key:value pair and lists are ordered while as dictionaries are not
+Q4:KeyError
+Q5:No difference 
+Q6: 'cat' in spam checks whether there is any key named 'cat' and 'cat' in spam.values() checks whetehr there is any value 'cat' in spam dictionary
+Q7: spam.setdefault('color','black')
+Q8: pprint.pprint()
