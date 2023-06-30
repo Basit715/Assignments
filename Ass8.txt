@@ -1,0 +1,100 @@
+Q1: Built-in functions are those which are already included in python and we just need to use them inside our programs. We do not write the code for these functiions but just simply call 
+eg: print() is a built-in function used to print whatever we wish on the standard output
+While as user defined functions are those that are created by user themselves for different uses where he falls short of functionality from the built-in functions. The user writes the code for these functions.
+eg; def sum(a, b):
+	return a + b
+
+sum(10,12)
+
+Q2: Passing arguments in python is easy we simply write our own desired name in the brackets after the function name which are formal arguments and while we call that function we give the actual arguments 
+eg def msg(name):
+	print(f"Hello {name}")
+
+msg("basit")
+Here name is passed as formal argument and basit is the actual argument
+positional argument is not followed by equal sign and a default value while as keyword argument is followed by equal sign and a value
+
+Q3: return statement is used to help accessing the item inside the function from outside the function eg:
+we have a function 
+def count_of_1(lst):
+	c = lst.count(1)
+             # This c cannot be printed or accessed outside the function until we do not return this as
+             return c   # now we can access and print this outside our function 
+
+list1 = [1, 2,3,4,1,1,1,1,4]
+res = count_of_1(list1)
+print(res)
+
+Q4:lambda functions are those functions which can take as many arguments but return a single expression and we do not use def keyword in this function but lambda
+eg; sum = lambda a, b: a + b
+
+print(sum(2, 3))    gives output 5
+This is different from normal functions as we do not need to write a large code like normal function we do not use def keyword, 
+It is useful in many ways where we have simple problems this is the best way to solve them we can use it in another function to return somethings etc
+
+Q5:Python Global variables are those which are not defined inside any function and have a global scope whereas Python local variables are those which are defined inside a function and their scope is limited to that function only.
+
+Q6:we can if else statements and return multiple return statements in our program.
+
+eg: 
+def calc(n1, n2):
+	opration = input("Enter the operation you want to perform")
+	if operation == "sum":
+		res = n1 + n2
+		return res
+	elif operation == "difference"
+		res = n1 - n2
+		return res
+	elif operation == "multtiply"
+		res = n1 * n2
+		return res
+	elif operation == "Division"
+		res = n1/n2
+		return res
+	else:
+		print("Invalid operation")
+
+
+result = calc(10,12)
+print(result)
+
+Q7: Pass by value refers to a mechanism of copying the function parameter value to another variable while the pass by reference refers to a mechanism of passing the actual parameters to the function. Thus, this is the main difference between pass by value and pass by reference.
+
+Q8: import math
+
+def ops(operation, x):
+    lg = math.log(x)
+    exp = math.exp(x)
+    pow = math.pow(2, x)
+    sq = math.sqrt(x)
+
+    if operation == "log":
+        return lg
+    elif operation == "exp":
+        return exp
+    elif operation == "pow":
+        return pow
+    elif operation == "sq":
+        return sq
+    else:
+        print("Operation not found")
+
+
+operation = input("Enter lg for log, exp for exponential, powe for power, and sq for square root: ")
+x = float(input("Enter the value of x: "))
+
+res = ops(operation, x)
+print(f"The result is {res}")
+
+Q9: def name(fullname):
+    seperatedNames = fullname.split(" ")
+    # print(seperatedNames)
+    inp = input("Enter which name you want: enter fn for first name and ln for last name: ")
+    if inp == "fn":
+        return seperatedNames[0]
+    else:
+        return seperatedNames[1]
+
+
+your_name = name("Basit Abass")
+print(your_name)
