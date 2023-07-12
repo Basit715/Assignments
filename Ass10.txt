@@ -1,0 +1,84 @@
+Q1: try and exception block is used for handling errors in python. In try block we write the code which we think can throw an error and in except block we handle that error.
+Q2: try:
+	# code that can throw an error
+      except:
+	#handling if error occurs
+Q3:  we get a syntax error.
+Q4: Bare except class does not give the name of an error while specifying the except block we get to know the exact name and type of error
+Q5:
+try:
+    n = int(input("Enter the numerator: "))
+    d = int(input("Enter the denominator: "))
+    res = n/d
+
+    try:
+        lst = [1, 2, 3, 4]
+        print(lst[int(res)])
+    except IndexError:
+        print("This index is not available")
+except ZeroDivisionError:
+    print("0 cannot be a denominator")
+else:
+    print("Result is ", res)
+Q6: 
+try:
+    amount = 10000
+    rate = int(input("Enter the rate: "))
+    si = amount * rate
+except FloatingPointError:
+    print("Floating point error")
+except ValueError:
+    print("Value error")
+else:
+    print(si)
+finally:
+    print("COde completion")
+Q7: (i) This error occurs when Python has reached the end of user input without receiving any input. The reason that EOFError occurs is that Python attempts to print out your input in variable string when no data is given.
+    (ii)t's a problem caused when the internal representation of floating-point numbers, which uses a fixed number of binary digits to represent a decimal number.
+  (iii)When we try to access the the index in list which is not available, then index error is occured
+ (iv)If for some reasons like infinite loop our program goes in ever running state it can crash our memory and such error is called the memoryError
+(v)overflow error is if we try to store the large value in small variables then the overflow occurs which can lead to loss of data also
+(vi)inconsistent use of tabs and spaces in indentation” error is raised when you try to indent code using both spaces and tabs 
+(vii)if we try to store different value in yet another different data type eg; 
+num = int(input("Enter the number: "))
+print(num + 2)
+if we give input as 2.5 which is float then value error occurs
+Q8:
+(i)
+try:
+    n = int(input("Enter the numerator:" ))
+    d = int(input("Enter the denominator: "))
+    res = n/d
+except ZeroDivisionError as e:
+    print(e)
+else:
+    print("Result is ", res)
+(ii)
+try:
+    num = int(input("Enter the number: "))
+except:
+    print("String literal cannot be converted to number: ")
+else:
+    print(num)
+(iii)
+try:
+    lst = [1, 2, 3, 4, 5]
+    inx = lst[6]
+except IndexError as e:
+    print(e)
+else:
+    print(inx)
+(iv)
+try:
+    num = int(input("Enter the number: "))
+except ValueError as e:
+    print(e)
+else:
+    print(num)
+(v)
+try:
+    n = int(input())
+except:
+    print("Input not given")
+else:
+    print(n)
